@@ -1,0 +1,115 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: rgb(232, 239, 255);
+  text-align: center;
+  margin: 0;
+  font-family: 'Acme', sans-serif;
+}
+
+.card {
+  width: 450px;
+  height: 700px;
+  margin: 5% auto 5% auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.top-image {
+  height: 30%;
+  background-image: url(../images/illustration-hero.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mid-text {
+  margin: 8% 10% 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: rgb(13, 25, 94);
+  margin: 0;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  font-weight: normal;
+  color: rgb(82, 82, 82);
+}
+
+.annual-plan {
+  background-color: ghostwhite;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+}
+
+.music-notes {
+  display: flex;
+  align-items: center;
+  margin: 0 25px 0 5px;
+}
+
+.annual-plan-body {
+  margin: 0;
+}
+
+.annual-plan-body p {
+  width: 210px;
+  margin: 0;
+
+}
+
+.annual-plan-title {
+  font-weight: bolder;
+}
+
+.change-plan {
+  font-size: 1.5em;
+}
+
+.change-plan:hover a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.pay-btn {
+  display: block;
+  padding: 15px 0;
+  margin: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.25em;
+  background-color: blue;
+  color: white;
+  box-shadow: 0 10px 20px silver;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pay-btn:hover,
+.pay-btn:focus {
+background-color: mediumslateblue;
+text-decoration: underline;
+}
+
+.cancel {
+  display: inline-block;
+  color: lightslategrey;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.cancel:hover,
+.cancel:focus {
+  color: indigo;
+}
